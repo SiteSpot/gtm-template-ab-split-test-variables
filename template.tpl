@@ -6,7 +6,22 @@ https://developers.google.com/tag-manager/gallery-tos (or such other URL as
 Google may provide), as modified from time to time.
 
 ___INFO___
-"categories": [
+
+{
+  "type": "MACRO",
+  "id": "cvt_temp_public_id",
+  "version": 1,
+  "securityGroups": [],
+  "displayName": "AB Split Test - Variables",
+  "brand": {
+    "id": "brand_dummy",
+    "displayName": "AB Split Test"
+  },
+  "description": "Extracts AB Split Test experiment data from the dataLayer for use in any tag or trigger.",
+  "containerContexts": [
+    "WEB"
+  ],
+  "categories": [
     "UTILITY"
   ]
 }
