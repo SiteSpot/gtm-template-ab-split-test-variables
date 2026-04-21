@@ -1,5 +1,5 @@
 homepage: "https://github.com/SiteSpot/gtm-template-ab-split-test-variables"
 documentation: "https://github.com/SiteSpot/gtm-template-ab-split-test-variables/blob/main/README.md"
 versions:
-  - sha: ac87cf2e5daa6d4137ec8062e2bc852410eb3410
+  - sha: 43e499ae2f1f166d28abc6e6a200787019e5d559
     changeNotes: Initial release of AB Split Test Variables template.
