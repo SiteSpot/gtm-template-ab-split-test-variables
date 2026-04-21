@@ -188,3 +188,13 @@ ___TESTS___
 
 scenarios: []
 setup: ''
+
+
+___NOTES___
+
+User Notes: This template extracts AB Split Test experiment data from the dataLayer for use in any GTM tag or trigger.
+
+
+___TERMS_OF_SERVICE___
+
+By using this template, you agree to the terms of service available at https://github.com/SiteSpot/gtm-template-ab-split-test-variables
