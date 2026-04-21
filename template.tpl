@@ -6,22 +6,7 @@ https://developers.google.com/tag-manager/gallery-tos (or such other URL as
 Google may provide), as modified from time to time.
 
 ___INFO___
-
-{
-  "type": "MACRO",
-  "id": "cvt_temp_public_id",
-  "version": 1,
-  "securityGroups": [],
-  "displayName": "AB Split Test - Variables",
-  "brand": {
-    "id": "brand_dummy",
-    "displayName": "AB Split Test"
-  },
-  "description": "Extracts AB Split Test experiment data from the dataLayer for use in any tag or trigger.",
-  "containerContexts": [
-    "WEB"
-  ],
-  "categories": [
+"categories": [
     "UTILITY"
   ]
 }
@@ -133,6 +118,13 @@ ___WEB_PERMISSIONS___
       },
       "param": [
         {
+          "key": "allowedKeys",
+          "value": {
+            "type": 1,
+            "string": "specific"
+          }
+        },
+        {
           "key": "keyPatterns",
           "value": {
             "type": 2,
@@ -187,6 +179,16 @@ ___WEB_PERMISSIONS___
       "isEditedByUser": true
     },
     "isRequired": true
+  },
+  {
+    "instance": {
+      "key": {
+        "publicId": "access_globals",
+        "versionId": "1"
+      },
+      "param": []
+    },
+    "isRequired": true
   }
 ]
 
@@ -202,6 +204,3 @@ ___NOTES___
 User Notes: This template extracts AB Split Test experiment data from the dataLayer for use in any GTM tag or trigger.
 
 
-___TERMS_OF_SERVICE___
-
-By using this template, you agree to the terms of service available at https://github.com/SiteSpot/gtm-template-ab-split-test-variables
